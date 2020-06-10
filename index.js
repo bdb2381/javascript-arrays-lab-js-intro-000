@@ -10,3 +10,8 @@ function destructivelyPrependKitten(Draco){
   kittens.unshift(Draco)
   return kittens
 }
+
+function destructivelyRemoveLastKitten(){
+  kittens.pop()
+  return
+}
