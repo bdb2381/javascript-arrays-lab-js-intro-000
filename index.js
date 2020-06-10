@@ -23,5 +23,5 @@ function destructivelyRemoveFirstKitten(){
 
 function appendKitten(Ruby){
   Ruby.concat(kittens)
-  return
+  return Ruby
 }
