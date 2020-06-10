@@ -20,3 +20,8 @@ function destructivelyRemoveFirstKitten(){
   kittens.shift()
   return
 }
+
+function appendKitten(Ruby){
+  newKittens = kittens.concat(Ruby)
+  return
+}
