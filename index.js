@@ -1,5 +1,5 @@
 var kittens = ['Milo', 'Otis', 'Garfield'] //define your array here
-
+var Ruby = ['ruby']
 // Add your functions and code here
 function destructivelyAppendKitten(Hagrid){
   kittens.push(Hagrid);
@@ -21,7 +21,7 @@ function destructivelyRemoveFirstKitten(){
   return
 }
 
-function appendKitten(){
+function appendKitten(Ruby){
   Ruby.concat(kittens)
   return Ruby
 }
