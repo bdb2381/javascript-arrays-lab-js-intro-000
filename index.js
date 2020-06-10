@@ -29,3 +29,8 @@ function appendKitten(Ruby){
 function prependKitten(Ruby){
   return [Ruby, ...kittens]
 }
+
+
+function removeLastKitten(){
+    return kittens.slice(0, kittens.lenght - 1)
+}
