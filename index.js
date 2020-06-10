@@ -5,3 +5,8 @@ function destructivelyAppendKitten(Hagrid){
   kittens.push(Hagrid);
   return kittens
 }
+
+function destructivelyPrependKitten(Draco){
+  kittens.unshift(Draco)
+  return kittens
+}
